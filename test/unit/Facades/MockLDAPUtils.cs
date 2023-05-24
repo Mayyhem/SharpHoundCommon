@@ -1058,5 +1058,10 @@ namespace CommonLibTest.Facades
             g.Properties.Add("name", "ENTERPRISE DOMAIN CONTROLLERS@TESTLAB.LOCAL".ToUpper());
             return g;
         }
+
+        public TypedPrincipal ResolveCertTemplateByCN(string cn, string containerDN)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

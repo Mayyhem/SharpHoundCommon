@@ -33,6 +33,7 @@ namespace SharpHoundCommonLib
         bool TestLDAPConfig(string domain);
         string[] GetUserGlobalCatalogMatches(string name);
         TypedPrincipal ResolveIDAndType(string id, string fallbackDomain);
+        TypedPrincipal ResolveCertTemplateByCN(string cn, string containerDN);
         Label LookupSidType(string sid, string domain);
         Label LookupGuidType(string guid, string domain);
         string GetDomainNameFromSid(string sid);
