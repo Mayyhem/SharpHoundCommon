@@ -46,6 +46,8 @@
         public const string UnicodePassword = "unicodepwd";
         public const string MsSFU30Password = "msSFU30Password";
         public const string ScriptPath = "scriptpath";
+        public const string LdapAdminLimits = "ldapadminlimits";
+        public const string HostServiceAccount = "msds-hostserviceaccount";
         public const string PKIExpirationPeriod = "pkiexpirationperiod";
         public const string PKIOverlappedPeriod = "pkioverlapperiod";
         public const string TemplateSchemaVersion = "mspki-template-schema-version";

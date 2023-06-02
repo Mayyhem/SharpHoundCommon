@@ -228,5 +228,10 @@ namespace SharpHoundCommonLib.LDAPQueries
 
             return temp;
         }
+
+        public IEnumerable<string> GetFilterList()
+        {
+            return _filterParts;
+        }
     }
 }
