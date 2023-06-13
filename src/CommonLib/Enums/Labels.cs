@@ -12,7 +12,10 @@
         OU,
         Container,
         CertTemplate,
-        CertAuthority,
+        RootCA,
+        AIACA,
+        EnrollmentService,
+        NTAuthCert,
         Base
     }
 }
